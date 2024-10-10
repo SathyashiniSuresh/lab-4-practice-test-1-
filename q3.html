@@ -8,10 +8,86 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
-        
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            background-color: rgb(255, 255, 255);
+        }
+
+        header {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(254, 254, 254);
+            font-size: xx-large;
+            text-align: center;
+            background-color: rgb(0, 60, 255);
+            padding: 20px;
+            font-weight: 600;
+        }
+
+        footer {
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+            color: antiquewhite;
+            background-color: green;
+            font-size: medium;
+            font-weight: 600;
+        }
+
+        main {
+            color: rgb(6, 6, 6);
+            font-size: medium;
+            padding: 20px;
+            font-weight: 400;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1> <span> Typesetting</span>, <span> Desktop Publishing </span> and <span>Through the Ages </span> </h1>
+    </header>
+    <main>
+        <section>
+            <h2> Old Fashion Typesetting </h2>
+            <p> In the early days of printing, typesetting was a meticulous and labor-intensive process. Typesetters
+                manually arranged individual blocks of type, each representing a letter or symbol, to create the layout
+                of a
+                page. The process was slow but yielded high-quality results, with each letter precisely aligned for
+                maximum
+                readability </p>
+        </section>
+        <section>
+            <h2> Desktop Publishing </h2>
+            <p> The advent of computers, <strong> desktop publishing </strong> revolutionized the way layouts were
+                designed. Unlike traditional typesetting, desktop publishing allowed users to arrange text, images, and
+                other elements on
+                the page using software. This sped up production and enabled more flexibility and creativity in design.
+            </p>
+        </section>
+        <section>
+            <h2> HTML & CSS </h2>
+            <p> With the rise of the web, HTML and CSS emerged as essential tools for digital publishing. HTML provides
+                the
+                structure, while CSS adds styling, offering a separation of content and design. Unlike traditional
+                typesetting or even desktop publishing, changes to styling in CSS can be applied site-wide, making it
+                incredibly efficient for large-scale websites </p>
+        </section>
+        <section>
+            <h2> Comparison </h2>
+            <p> While traditional typesetting required painstaking manual work, desktop publishing introduced automation
+                and
+                flexibility, greatly reducing time and labor. HTML and CSS further enhance this by offering a scalable
+                solution for digital content. However, typesetting offered unparalleled control over each element, a
+                feature
+                that's sometimes lost in modern automated methods. Each method has its strengths, with older techniques
+                emphasizing precision and newer technologies focusing on speed and flexibility.</p>
+        </section>
+    </main>
+    <footer>
+        <p> Exploring the evolution of <span> publishing</span> and <span> typesetting </span> techniques through time.
+        </p>
+    </footer>
 </body>
 
 </html>

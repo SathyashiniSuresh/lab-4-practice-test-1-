@@ -7,12 +7,77 @@
 a) Write a short article with appropriate headings in html that describes the key differences between writing in google docs and in an html document.
 b) Use an embedded stylesheet to set the default text font face to a serif font and all heading text to sans serif.
     -->
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            background-color: navajowhite;
+            color: darkolivegreen;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(90, 0, 100);
+            font-size: larger;
+            background-color: white
+        }
+
+        header {
+            color: black;
+            background-color: #e2802b;
+            font-size: x-large;
+            font-weight: 400;
+        }
+
+        main {
+            font: 1em sans-serif;
+            margin: 0.5em 0;
+            color: rgb(0, 0, 0);
+        }
+
+        footer {
+            font-size: large;
+            color: #655857;
+        }
+    </style>
 </head>
 
 <body>
-    <section id="1">
-        <!-- put article here -->
-    </section>
+    <header>
+        Differences between google docs and HTML
+    </header>
+    <main>
+        <section id="1">
+            <h2> Format </h2>
+            <p> Google Docs is easy to use, letting you format text with simple menus. HTML requires coding skills,
+                making it less user-friendly for beginners. </p>
+        </section>
+        <section>
+            <h2> Collaboration </h2>
+            <p> Google Docs allows multiple people to edit and comment on a document in real time. HTML lacks built-in
+                collaboration tools unless hosted on a specialized platform.</p>
+        </section>
+        <section>
+            <h2> Accessibility </h2>
+            <p> Google Docs is cloud-based, so you can access and share documents from any device. HTML files need to be
+                hosted online, making sharing more complicated. </p>
+        </section>
+        <section>
+            <h2> Flexibility</h2>
+            <p> HTML allows for custom layouts and multimedia integration, while Google Docs has limited design options
+            </p>
+        </section>
+        <section>
+            <h2> Learning </h2>
+            <p> Google Docs is beginner-friendly, while HTML requires some coding knowledge. </p>
+        </section>
+    </main>
 </body>
-
+<footer>
+    <h2> Conclusion </h2>
+    <p> Google Docs is great for quick document creation and teamwork, while HTML is better for custom web content. Your
+        choice depends on what you need and your coding skills. </p>
+</footer>
 </html>
